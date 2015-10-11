@@ -1,2 +1,5 @@
 service: web
 command: rake
+plugins:
+  - plugin_image: emeraldci/webhook-plugin
+    url: https://morning-citadel-6326.herokuapp.com/
